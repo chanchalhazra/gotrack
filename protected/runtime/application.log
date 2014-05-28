@@ -721,3 +721,149 @@ Stack trace:
 REQUEST_URI=/gotrack/index.php?r=gii/model/index
 HTTP_REFERER=http://localhost:8383/gotrack/index.php?r=gii/default/index
 ---
+2014/05/28 22:51:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(270): CController->missingAction('users')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('users')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/users')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gotrack/index.php?r=site/users
+---
+2014/05/28 22:52:39 [error] [exception.CException] exception 'CException' with message 'Property "Users.update_user_time" is not defined.' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('update_user_tim...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('update_user_tim...')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Users), 'update_user_tim...')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Users), 'update_user_tim...', Array)
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Users), 'update_user_tim...', Array)
+#5 C:\LearnToDevelop\xampp\htdocs\gotrack\protected\views\users\_form.php(78): CActiveForm->textField(Object(Users), 'update_user_tim...')
+#6 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CBaseController.php(126): require('C:\LearnToDevel...')
+#7 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\LearnToDevel...', Array, true)
+#8 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\LearnToDevel...', Array, true)
+#9 C:\LearnToDevelop\xampp\htdocs\gotrack\protected\views\users\create.php(18): CController->renderPartial('_form', Array)
+#10 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CBaseController.php(126): require('C:\LearnToDevel...')
+#11 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\LearnToDevel...', Array, true)
+#12 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\LearnToDevel...', Array, true)
+#13 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#14 C:\LearnToDevelop\xampp\htdocs\gotrack\protected\controllers\UsersController.php(79): CController->render('create', Array)
+#15 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionCreate()
+#16 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#25 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/create')
+#26 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/gotrack/index.php?r=users/create
+HTTP_REFERER=http://localhost:8888/gotrack/index.php?r=users
+---
+2014/05/28 22:54:49 [error] [exception.CException] exception 'CException' with message 'Property "Users.update_user_time" is not defined.' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('update_user_tim...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('update_user_tim...')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Users), 'update_user_tim...')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Users), 'update_user_tim...', Array)
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Users), 'update_user_tim...', Array)
+#5 C:\LearnToDevelop\xampp\htdocs\gotrack\protected\views\users\_form.php(78): CActiveForm->textField(Object(Users), 'update_user_tim...')
+#6 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CBaseController.php(126): require('C:\LearnToDevel...')
+#7 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\LearnToDevel...', Array, true)
+#8 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\LearnToDevel...', Array, true)
+#9 C:\LearnToDevelop\xampp\htdocs\gotrack\protected\views\users\create.php(18): CController->renderPartial('_form', Array)
+#10 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CBaseController.php(126): require('C:\LearnToDevel...')
+#11 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\LearnToDevel...', Array, true)
+#12 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\LearnToDevel...', Array, true)
+#13 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#14 C:\LearnToDevelop\xampp\htdocs\gotrack\protected\controllers\UsersController.php(79): CController->render('create', Array)
+#15 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionCreate()
+#16 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#25 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/create')
+#26 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/gotrack/index.php?r=users/create
+HTTP_REFERER=http://localhost:8888/gotrack/index.php?r=users
+---
+2014/05/28 22:54:52 [error] [exception.CException] exception 'CException' with message 'Property "Users.update_user_time" is not defined.' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('update_user_tim...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('update_user_tim...')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Users), 'update_user_tim...')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Users), 'update_user_tim...', Array)
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Users), 'update_user_tim...', Array)
+#5 C:\LearnToDevelop\xampp\htdocs\gotrack\protected\views\users\_form.php(78): CActiveForm->textField(Object(Users), 'update_user_tim...')
+#6 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CBaseController.php(126): require('C:\LearnToDevel...')
+#7 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\LearnToDevel...', Array, true)
+#8 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\LearnToDevel...', Array, true)
+#9 C:\LearnToDevelop\xampp\htdocs\gotrack\protected\views\users\create.php(18): CController->renderPartial('_form', Array)
+#10 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CBaseController.php(126): require('C:\LearnToDevel...')
+#11 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\LearnToDevel...', Array, true)
+#12 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\LearnToDevel...', Array, true)
+#13 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#14 C:\LearnToDevelop\xampp\htdocs\gotrack\protected\controllers\UsersController.php(79): CController->render('create', Array)
+#15 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionCreate()
+#16 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#25 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/create')
+#26 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/gotrack/index.php?r=users/create
+HTTP_REFERER=http://localhost:8888/gotrack/index.php?r=users
+---
+2014/05/28 22:54:57 [error] [exception.CException] exception 'CException' with message 'Property "Users.update_user_time" is not defined.' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('update_user_tim...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('update_user_tim...')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Users), 'update_user_tim...')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Users), 'update_user_tim...', Array)
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Users), 'update_user_tim...', Array)
+#5 C:\LearnToDevelop\xampp\htdocs\gotrack\protected\views\users\_search.php(61): CActiveForm->textField(Object(Users), 'update_user_tim...')
+#6 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CBaseController.php(126): require('C:\LearnToDevel...')
+#7 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\LearnToDevel...', Array, true)
+#8 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\LearnToDevel...', Array, true)
+#9 C:\LearnToDevelop\xampp\htdocs\gotrack\protected\views\users\admin.php(40): CController->renderPartial('_search', Array)
+#10 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CBaseController.php(126): require('C:\LearnToDevel...')
+#11 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\LearnToDevel...', Array, true)
+#12 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\LearnToDevel...', Array, true)
+#13 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\LearnToDevelop\xampp\htdocs\gotrack\protected\controllers\UsersController.php(143): CController->render('admin', Array)
+#15 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionAdmin()
+#16 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#26 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/gotrack/index.php?r=users/admin
+HTTP_REFERER=http://localhost:8888/gotrack/index.php?r=users
+---

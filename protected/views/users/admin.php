@@ -56,7 +56,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'create_time',
 		'create_user_id',
 		'update_time',
-		'update_user_time',
+		'update_user_id',
 		'role_id',
 		'access_token',
 		'user_type',

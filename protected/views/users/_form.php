@@ -36,6 +36,12 @@
 		<?php echo $form->passwordField($model,'password',array('size'=>50,'maxlength'=>50)); ?>
 		<?php echo $form->error($model,'password'); ?>
 	</div>
+        
+        <div class="row">
+            <?php echo $form->labelEx($model,'password_repeat'); ?>
+            <?php echo $form->passwordfield($model,'password_repeat', array('size'=>50, 'maxlength'=>50)); ?>
+            <?php echo $form->error($model,'password_repeat'); ?>
+        </div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'firstname'); ?>
@@ -74,9 +80,9 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'update_user_time'); ?>
-		<?php echo $form->textField($model,'update_user_time'); ?>
-		<?php echo $form->error($model,'update_user_time'); ?>
+		<?php echo $form->labelEx($model,'update_user_id'); ?>
+		<?php echo $form->textField($model,'update_user_id'); ?>
+		<?php echo $form->error($model,'update_user_id'); ?>
 	</div>
 
 	<div class="row">

@@ -46,8 +46,8 @@
 	<?php echo CHtml::encode($data->update_time); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('update_user_time')); ?>:</b>
-	<?php echo CHtml::encode($data->update_user_time); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('update_user_id')); ?>:</b>
+	<?php echo CHtml::encode($data->update_user_id); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('role_id')); ?>:</b>

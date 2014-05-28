@@ -57,8 +57,8 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'update_user_time'); ?>
-		<?php echo $form->textField($model,'update_user_time'); ?>
+		<?php echo $form->label($model,'update_user_id'); ?>
+		<?php echo $form->textField($model,'update_user_id'); ?>
 	</div>
 
 	<div class="row">
