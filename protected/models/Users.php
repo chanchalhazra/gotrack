@@ -148,4 +148,9 @@ class Users extends CActiveRecord
             return md5($password);
             
         }
+        
+        public function validatePassword($password)
+        {
+            return $this->hashPassword($password)===$this->password;
+        }
 }
