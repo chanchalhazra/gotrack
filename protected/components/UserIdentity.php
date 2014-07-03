@@ -23,14 +23,32 @@ class UserIdentity extends CUserIdentity
             $user = Users::model()->find('LOWER(username)=?', array(strtolower($this->username)));
         
 		if($user===NULL)
+                {
 			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		elseif(!$user->validatePassword($this->password))
+                        echo 'userid is null';
+                        
+                } 
+		elseif(md5($this->password) != $user->password)
+                {
 			$this->errorCode=self::ERROR_PASSWORD_INVALID;
+                        
+                        echo md5($this->password);
+                        echo $this->username;
+                        echo $user->password;
+                        //echo 'Password did not match';
+                }
 		else
+                {
                     $this->_id = $user->user_id;
                     $this->username = $user->username;
-	}
-
+                    $this->errorCode=self::ERROR_NONE;
+                    //echo 'I am in else loop';
+                    return TRUE;
+                }
+              return $this->errorCode;
+             
+              
+        }
         public function getId() {
            return $this->_id;
         }

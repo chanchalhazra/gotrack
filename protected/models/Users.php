@@ -151,6 +151,6 @@ class Users extends CActiveRecord
         
         public function validatePassword($password)
         {
-            return $this->hashPassword($password)===$this->password;
+            return $this->hashPassword($password)===$this->password ;
         }
 }
