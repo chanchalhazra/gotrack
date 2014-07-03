@@ -39,9 +39,7 @@ class UsersController extends Controller
 				'actions'=>array('admin','delete'),
 				'users'=>array('chanchal', 'saheli','admin'),
 			),
-			array('deny',  // deny all users
-				'users'=>array('*'),
-			),
+			
 		);
 	}
 
