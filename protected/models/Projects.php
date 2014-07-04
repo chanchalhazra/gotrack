@@ -39,15 +39,15 @@ class Projects extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('projectName, projectDescription, projectLeadId, projectCustomerId', 'required'),
-			array('projectLeadId, createUserId, updateUserId, projectCustomerId', 'numerical', 'integerOnly'=>true),
-			array('projectName', 'length', 'max'=>50),
-			array('projectDescription', 'length', 'max'=>250),
+			array('name, description, project_lead_id, customer_id', 'required'),
+			array('project_lead, create_user, update_user, customer_id', 'numerical', 'integerOnly'=>true),
+			array('name', 'length', 'max'=>50),
+			array('description', 'length', 'max'=>250),
 			array('projectType', 'length', 'max'=>25),
-			array('createDate, UpdateDate', 'safe'),
+			array('create_date, update_date', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('project_id, projectName, projectDescription, projectLeadId, createUserId, updateUserId, createDate, UpdateDate, projectType, projectCustomerId', 'safe', 'on'=>'search'),
+			array('id, name, description, project_lead_id, create_user, update_user, create_date, Update_date, type, customer_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -59,10 +59,10 @@ class Projects extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'updateUser' => array(self::BELONGS_TO, 'Users', 'updateUserId'),
-			'createUser' => array(self::BELONGS_TO, 'Users', 'createUserId'),
-			'projectCustomer' => array(self::BELONGS_TO, 'Customers', 'projectCustomerId'),
-			'projectLead' => array(self::BELONGS_TO, 'Users', 'projectLeadId'),
+			'update_user' => array(self::BELONGS_TO, 'Users', 'update_user'),
+			'create_user' => array(self::BELONGS_TO, 'Users', 'create_user'),
+			'projectCustomer' => array(self::BELONGS_TO, 'Customers', 'customer_id'),
+			'projectLead' => array(self::BELONGS_TO, 'Users', 'project_lead_id'),
 		);
 	}
 
@@ -72,16 +72,16 @@ class Projects extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'project_id' => 'Project',
-			'projectName' => 'Project Name',
-			'projectDescription' => 'Project Description',
-			'projectLeadId' => 'Project Lead',
-			'createUserId' => 'Create User',
-			'updateUserId' => 'Update User',
-			'createDate' => 'Create Date',
-			'UpdateDate' => 'Update Date',
-			'projectType' => 'Project Type',
-			'projectCustomerId' => 'Project Customer',
+			'id' => 'Project',
+			'name' => 'Project Name',
+			'description' => 'Project Description',
+			'project_lead_ld' => 'Project Lead',
+			'create_user' => 'Create User',
+			'update_user' => 'Update User',
+			'create_date' => 'Create Date',
+			'update_date' => 'Update Date',
+			'type' => 'Project Type',
+			'customer_id' => 'Project Customer',
 		);
 	}
 
@@ -103,16 +103,16 @@ class Projects extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('project_id',$this->project_id);
-		$criteria->compare('projectName',$this->projectName,true);
-		$criteria->compare('projectDescription',$this->projectDescription,true);
-		$criteria->compare('projectLeadId',$this->projectLeadId);
-		$criteria->compare('createUserId',$this->createUserId);
-		$criteria->compare('updateUserId',$this->updateUserId);
-		$criteria->compare('createDate',$this->createDate,true);
-		$criteria->compare('UpdateDate',$this->UpdateDate,true);
-		$criteria->compare('projectType',$this->projectType,true);
-		$criteria->compare('projectCustomerId',$this->projectCustomerId);
+		$criteria->compare('id',$this->id);
+		$criteria->compare('name',$this->name,true);
+		$criteria->compare('description',$this->description,true);
+		$criteria->compare('project_lead_id',$this->project_lead_id);
+		$criteria->compare('create_user',$this->create_user);
+		$criteria->compare('update_user',$this->update_user);
+		$criteria->compare('create_date',$this->create_date,true);
+		$criteria->compare('update_date',$this->update_date,true);
+		$criteria->compare('type',$this->type,true);
+		$criteria->compare('customer_id',$this->customer_id);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

@@ -37,7 +37,7 @@ class ProjectsController extends Controller
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
+				'users'=>array('admin','chanchal','saheli'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -95,7 +95,7 @@ class ProjectsController extends Controller
 		{
 			$model->attributes=$_POST['Projects'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->project_id));
+				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('update',array(

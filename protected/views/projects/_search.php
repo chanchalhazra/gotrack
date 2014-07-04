@@ -12,53 +12,53 @@
 )); ?>
 
 	<div class="row">
-		<?php echo $form->label($model,'project_id'); ?>
-		<?php echo $form->textField($model,'project_id'); ?>
+		<?php echo $form->label($model,'id'); ?>
+		<?php echo $form->textField($model,'id'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'projectName'); ?>
-		<?php echo $form->textField($model,'projectName',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->label($model,'name'); ?>
+		<?php echo $form->textField($model,'name',array('size'=>50,'maxlength'=>50)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'projectDescription'); ?>
-		<?php echo $form->textField($model,'projectDescription',array('size'=>60,'maxlength'=>250)); ?>
+		<?php echo $form->label($model,'description'); ?>
+		<?php echo $form->textField($model,'description',array('size'=>60,'maxlength'=>250)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'projectLeadId'); ?>
-		<?php echo $form->textField($model,'projectLeadId'); ?>
+		<?php echo $form->label($model,'project_lead_id'); ?>
+		<?php echo $form->textField($model,'project_lead_id'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'createUserId'); ?>
-		<?php echo $form->textField($model,'createUserId'); ?>
+		<?php echo $form->label($model,'create_user'); ?>
+		<?php echo $form->textField($model,'create_user'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'updateUserId'); ?>
-		<?php echo $form->textField($model,'updateUserId'); ?>
+		<?php echo $form->label($model,'update_user'); ?>
+		<?php echo $form->textField($model,'update_user'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'createDate'); ?>
-		<?php echo $form->textField($model,'createDate'); ?>
+		<?php echo $form->label($model,'create_date'); ?>
+		<?php echo $form->textField($model,'create_date'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'UpdateDate'); ?>
-		<?php echo $form->textField($model,'UpdateDate'); ?>
+		<?php echo $form->label($model,'update_date'); ?>
+		<?php echo $form->textField($model,'update_date'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'projectType'); ?>
-		<?php echo $form->textField($model,'projectType',array('size'=>25,'maxlength'=>25)); ?>
+		<?php echo $form->label($model,'type'); ?>
+		<?php echo $form->textField($model,'type',array('size'=>25,'maxlength'=>25)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'projectCustomerId'); ?>
-		<?php echo $form->textField($model,'projectCustomerId'); ?>
+		<?php echo $form->label($model,'customer_id'); ?>
+		<?php echo $form->textField($model,'customer_id'); ?>
 	</div>
 
 	<div class="row buttons">

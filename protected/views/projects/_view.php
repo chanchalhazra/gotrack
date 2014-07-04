@@ -6,30 +6,30 @@
 <div class="view">
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('project_id')); ?>:</b>
-	<?php echo CHtml::link(CHtml::encode($data->project_id), array('view', 'id'=>$data->project_id)); ?>
+	<?php echo CHtml::link(CHtml::encode($data->project_id), array('view', 'id'=>$data->id)); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('projectName')); ?>:</b>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('name')); ?>:</b>
 	<?php echo CHtml::encode($data->projectName); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('projectDescription')); ?>:</b>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('description')); ?>:</b>
 	<?php echo CHtml::encode($data->projectDescription); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('projectLeadId')); ?>:</b>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('project_lead_id')); ?>:</b>
 	<?php echo CHtml::encode($data->projectLeadId); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('createUserId')); ?>:</b>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('create_user')); ?>:</b>
 	<?php echo CHtml::encode($data->createUserId); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('updateUserId')); ?>:</b>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('update_user')); ?>:</b>
 	<?php echo CHtml::encode($data->updateUserId); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('createDate')); ?>:</b>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('create_date')); ?>:</b>
 	<?php echo CHtml::encode($data->createDate); ?>
 	<br />
 
