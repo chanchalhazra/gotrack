@@ -70,7 +70,8 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'user_type'); ?>
-		<?php echo $form->textField($model,'user_type',array('size'=>20,'maxlength'=>20)); ?>
+		
+                <?php echo $form->dropDownList($model,'user_type',$model->getUserType() ); ?>
 		<?php echo $form->error($model,'user_type'); ?>
 	</div>
 

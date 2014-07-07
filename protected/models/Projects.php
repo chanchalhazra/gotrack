@@ -40,10 +40,10 @@ class Projects extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('name, description, project_lead_id, customer_id', 'required'),
-			array('project_lead, create_user, update_user, customer_id', 'numerical', 'integerOnly'=>true),
+			array('project_lead_id, create_user, update_user, customer_id', 'numerical', 'integerOnly'=>true),
 			array('name', 'length', 'max'=>50),
 			array('description', 'length', 'max'=>250),
-			array('projectType', 'length', 'max'=>25),
+			array('type', 'length', 'max'=>25),
 			array('create_date, update_date', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
@@ -59,10 +59,10 @@ class Projects extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'update_user' => array(self::BELONGS_TO, 'Users', 'update_user'),
-			'create_user' => array(self::BELONGS_TO, 'Users', 'create_user'),
-			'projectCustomer' => array(self::BELONGS_TO, 'Customers', 'customer_id'),
-			'projectLead' => array(self::BELONGS_TO, 'Users', 'project_lead_id'),
+			'Update User' => array(self::BELONGS_TO, 'Users', 'update_user'),
+			'Create User' => array(self::BELONGS_TO, 'Users', 'create_user'),
+			'Project Customer' => array(self::BELONGS_TO, 'Customers', 'customer_id'),
+			'Project Lead' => array(self::BELONGS_TO, 'Users', 'project_lead_id'),
 		);
 	}
 

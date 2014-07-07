@@ -7,6 +7,8 @@ class ProjectsController extends Controller
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	public $layout='//layouts/column2';
+        
+        private $_customer = null;
 
 	/**
 	 * @return array action filters
@@ -16,6 +18,7 @@ class ProjectsController extends Controller
 		return array(
 			'accessControl', // perform access control for CRUD operations
 			'postOnly + delete', // we only allow deletion via POST request
+                        'customerContext + create', //choose customer to create a project
 		);
 	}
 
@@ -71,7 +74,7 @@ class ProjectsController extends Controller
 		{
 			$model->attributes=$_POST['Projects'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->project_id));
+				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('create',array(
@@ -170,4 +173,32 @@ class ProjectsController extends Controller
 			Yii::app()->end();
 		}
 	}
+        
+        public function filterCustomerContext($filterChain)
+        {
+            if(isset($_GET['cid']))
+            {
+                $this->loadCustomer($_GET['cid']);
+            }
+            else
+            {
+                throw new CHttpException(403, 'Must specify a customer before creating new project');
+            }
+            $filterChain->run();
+        }
+        
+        public function loadCustomer($customerId)
+        {
+            if($this->_customer == NULL)
+            {
+                $this->_customer=  Customers::model()->findByPk($customerId);
+                
+                if($this->_customer == NULL)
+                {
+                    throw new CHttpException(404, 'The requested customer does not exist');
+                }
+                
+            }
+            return $this->_customer;
+        }
 }

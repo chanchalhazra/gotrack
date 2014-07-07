@@ -20,21 +20,26 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'customerName'); ?>
-		<?php echo $form->textField($model,'customerName',array('size'=>50,'maxlength'=>50)); ?>
-		<?php echo $form->error($model,'customerName'); ?>
+		<?php echo $form->labelEx($model,'name'); ?>
+		<?php echo $form->textField($model,'name',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->error($model,'name'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'customerOwnerId'); ?>
-		<?php echo $form->textField($model,'customerOwnerId'); ?>
-		<?php echo $form->error($model,'customerOwnerId'); ?>
+		<?php echo $form->labelEx($model,'customer_owner_id'); ?>
+		<?php echo $form->textField($model,'customer_owner_id'); ?>
+		<?php echo $form->error($model,'customer_owner_id'); ?>
+	</div>
+        <div class="row">
+		<?php echo $form->labelEx($model,'account_manager_id'); ?>
+		<?php echo $form->textField($model,'account_manager_id'); ?>
+		<?php echo $form->error($model,'account_manager_id'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'customerStatus'); ?>
-		<?php echo $form->textField($model,'customerStatus',array('size'=>25,'maxlength'=>25)); ?>
-		<?php echo $form->error($model,'customerStatus'); ?>
+		<?php echo $form->labelEx($model,'customer_status'); ?>
+		<?php echo $form->textField($model,'customer_status',array('size'=>25,'maxlength'=>25)); ?>
+		<?php echo $form->error($model,'customer_status'); ?>
 	</div>
 
 	<div class="row">
@@ -44,34 +49,34 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'billingAddress'); ?>
-		<?php echo $form->textField($model,'billingAddress',array('size'=>60,'maxlength'=>100)); ?>
-		<?php echo $form->error($model,'billingAddress'); ?>
+		<?php echo $form->labelEx($model,'billing_address'); ?>
+		<?php echo $form->textField($model,'billing_address',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'billing_address'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'billingPhone'); ?>
-		<?php echo $form->textField($model,'billingPhone'); ?>
-		<?php echo $form->error($model,'billingPhone'); ?>
+		<?php echo $form->labelEx($model,'billing_phone'); ?>
+		<?php echo $form->textField($model,'billing_phone'); ?>
+		<?php echo $form->error($model,'billing_phone'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'customerType'); ?>
-		<?php echo $form->textField($model,'customerType',array('size'=>10,'maxlength'=>10)); ?>
-		<?php echo $form->error($model,'customerType'); ?>
+		<?php echo $form->labelEx($model,'customer_type'); ?>
+		<?php echo $form->dropDownList($model,'customer_type',$model->getcustomer_type()); ?>
+		<?php echo $form->error($model,'customer_type'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'shippingAddress'); ?>
-		<?php echo $form->textField($model,'shippingAddress',array('size'=>60,'maxlength'=>100)); ?>
-		<?php echo $form->error($model,'shippingAddress'); ?>
+		<?php echo $form->labelEx($model,'shipping_address'); ?>
+		<?php echo $form->textField($model,'shipping_address',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'shipping_address'); ?>
 	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'parentCustomer'); ?>
-		<?php echo $form->textField($model,'parentCustomer',array('size'=>50,'maxlength'=>50)); ?>
-		<?php echo $form->error($model,'parentCustomer'); ?>
+        <div class="row">
+		<?php echo $form->labelEx($model,'org_id'); ?>
+		<?php echo $form->textField($model,'org_id'); ?>
+		<?php echo $form->error($model,'org_id'); ?>
 	</div>
+	
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

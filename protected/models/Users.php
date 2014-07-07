@@ -21,7 +21,12 @@
  */
 class Users extends CActiveRecord
 {
-	
+    const Type_Admin = 0;
+    const Type_Internal =1;
+    const Type_External = 2;
+    
+    
+    
     public $password_repeat;
     /**
 	 * @return string the associated database table name
@@ -61,6 +66,7 @@ class Users extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+                    'customers'=>array(self::MANY_MANY,'Customers', 'tbl_customer_user_assignment(customer_id, user_id)'),
 		);
 	}
 
@@ -152,5 +158,19 @@ class Users extends CActiveRecord
         public function validatePassword($password)
         {
             return $this->hashPassword($password)===$this->password ;
+        }
+        
+        public function getUserType()
+        {
+            return array(
+                self::Type_Admin=>'Administrator',
+                self::Type_Internal=>'Internal User',
+                self::Type_External=>'Client User'
+            );
+        }
+        
+        public function getUserTypeText()
+        {
+           // $userType = $this->
         }
 }

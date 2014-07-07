@@ -17,18 +17,22 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'customerName'); ?>
-		<?php echo $form->textField($model,'customerName',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->label($model,'name'); ?>
+		<?php echo $form->textField($model,'name',array('size'=>50,'maxlength'=>50)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'customerOwnerId'); ?>
-		<?php echo $form->textField($model,'customerOwnerId'); ?>
+		<?php echo $form->label($model,'customer_owner_id'); ?>
+		<?php echo $form->textField($model,'customer_owner_id'); ?>
+	</div>
+    <div class="row">
+		<?php echo $form->label($model,'account_manager_id'); ?>
+		<?php echo $form->textField($model,'account_manager_id'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'customerStatus'); ?>
-		<?php echo $form->textField($model,'customerStatus',array('size'=>25,'maxlength'=>25)); ?>
+		<?php echo $form->label($model,'customer_status'); ?>
+		<?php echo $form->textField($model,'customer_status',array('size'=>25,'maxlength'=>25)); ?>
 	</div>
 
 	<div class="row">
@@ -37,28 +41,28 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'billingAddress'); ?>
-		<?php echo $form->textField($model,'billingAddress',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->label($model,'billing_address'); ?>
+		<?php echo $form->textField($model,'billing_address',array('size'=>60,'maxlength'=>100)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'billingPhone'); ?>
-		<?php echo $form->textField($model,'billingPhone'); ?>
+		<?php echo $form->label($model,'billing_phone'); ?>
+		<?php echo $form->textField($model,'billing_phone'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'customerType'); ?>
-		<?php echo $form->textField($model,'customerType',array('size'=>10,'maxlength'=>10)); ?>
+		<?php echo $form->label($model,'customer_type'); ?>
+		<?php echo $form->textField($model,'customer_type',array('size'=>10,'maxlength'=>10)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'shippingAddress'); ?>
-		<?php echo $form->textField($model,'shippingAddress',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->label($model,'shipping_address'); ?>
+		<?php echo $form->textField($model,'shipping_address',array('size'=>60,'maxlength'=>100)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'parentCustomer'); ?>
-		<?php echo $form->textField($model,'parentCustomer',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->label($model,'parent_customer'); ?>
+		<?php echo $form->textField($model,'parent_customer',array('size'=>50,'maxlength'=>50)); ?>
 	</div>
 
 	<div class="row buttons">

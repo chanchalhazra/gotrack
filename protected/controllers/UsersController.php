@@ -69,7 +69,7 @@ class UsersController extends Controller
 	public function actionCreate()
 	{
 		$model=new Users;
-
+                    
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
