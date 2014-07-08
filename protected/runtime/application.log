@@ -4521,3 +4521,20 @@ Stack trace:
 REQUEST_URI=/gotrack/index.php?r=customers/update&id=1
 HTTP_REFERER=http://localhost:8383/gotrack/index.php?r=customers/update&id=1
 ---
+2014/07/08 16:38:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('task/admin')
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/gotrack/index.php?r=task/admin
+HTTP_REFERER=http://localhost:8383/gotrack/index.php?r=task/create
+---
