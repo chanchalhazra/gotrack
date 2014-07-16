@@ -2,7 +2,8 @@
 
 class SiteController extends Controller
 {
-	/**
+    public $defaultAction = 'login';
+    /**
 	 * Declares class-based actions.
 	 */
 	public function actions()
@@ -77,6 +78,11 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
+           // echo (Yii::app()->homeUrl);
+            if(!yii::app()->user->isGuest)
+            {
+                $this->redirect(Yii::app()->homeUrl);
+            }
             
 		$model=new LoginForm;
 

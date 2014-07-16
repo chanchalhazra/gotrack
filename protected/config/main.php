@@ -8,6 +8,9 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'GoTrack - Track and Manage Client Activities',
+            
+            //creating hoome url
+        'homeurl'=>'index.php?r=customers',
 
 	// preloading 'log' component
 	'preload'=>array('log'),

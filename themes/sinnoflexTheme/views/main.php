@@ -26,7 +26,7 @@
 		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
 	</div><!-- header -->
 
-	<div id="mainmenu" >
+	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Customers', 'url'=>array('/customers/index')),
@@ -47,7 +47,7 @@
 
 	<div class="clear"></div>
 
-	<div id="footer" style="background-color:  #c09853;color:#F9F5EE">
+	<div id="footer">
 		Copyright &copy; <?php echo date('Y'); ?> by SinnoFlex<br/>
 		All Rights Reserved.<br/>
 		
