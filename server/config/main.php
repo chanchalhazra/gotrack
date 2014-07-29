@@ -10,7 +10,7 @@ return array(
 	'name'=>'GoTrack',
             
             //creating hoome url
-        'homeurl'=>'index.php?r=customers',
+        'homeurl'=>'customers/index',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -40,15 +40,19 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		// uncomment the following to enable URLs in path-format
-		/*
+		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
+                        'showScriptName'=>false,
+                        'caseSensitive'=>false,
 			'rules'=>array(
-				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
+                            'login'=>'site/login',
+                            'contact'=>'site/contact',
+                                '<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
                             //RESTful pattern
-                            //array('customers/list', 'pattern' => 'api/customers', 'verb' => 'GET'),
+                          array('customers', 'pattern' => 'customers/index', 'verb' => 'GET'),
                            // array('api/list', 'pattern'=>'api/<model:\w+>', 'verb'=>'GET'),
                            // array('api/view', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'GET'),
                            // array('api/create', 'pattern'=>'api/<model:\w+>', 'verb'=>'POST'),
@@ -57,7 +61,7 @@ return array(
 			),
                     
 		),
-		*/
+		
             /*
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',

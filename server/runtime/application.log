@@ -4657,3 +4657,80 @@ Stack trace:
 REQUEST_URI=/gotrack/index.php?r=projects/create
 HTTP_REFERER=http://localhost:8888/gotrack/index.php?r=projects/admin
 ---
+2014/07/29 20:14:49 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.<controller:\w+>/<id:\d+>" is not defined.' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\YiiBase.php(220): CComponent->__set('<controller:\w+...', '<controller>/vi...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(522): CModule->getComponent('urlManager')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/gotrack/index.php
+---
+2014/07/29 21:50:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "customers".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(270): CController->missingAction('customers')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('customers')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/customers')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gotrack/index.php/site/customers
+HTTP_REFERER=http://localhost:8888/gotrack/index.php/customers/index
+---
+2014/07/29 21:57:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "customers".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(270): CController->missingAction('customers')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('customers')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/customers/...')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gotrack/index.php/site/customers/index
+HTTP_REFERER=http://localhost:8888/gotrack/index.php/site/customers
+---
+2014/07/29 21:57:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "customers".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(270): CController->missingAction('customers')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('customers')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/customers/...')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gotrack/index.php/site/customers/index
+HTTP_REFERER=http://localhost:8888/gotrack/index.php/site/customers/index
+---
+2014/07/29 22:01:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index.php/...')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gotrack/index.php/site/index.php/customers/index
+HTTP_REFERER=http://localhost:8888/gotrack/index.php/customers/index
+---
+2014/07/29 22:04:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index.php/...')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gotrack/index.php/site/index.php/customers/index
+HTTP_REFERER=http://localhost:8888/gotrack/index.php/customers/index
+---
+2014/07/29 23:30:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "customers".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(270): CController->missingAction('customers')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('customers')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/customers/...')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gotrack/site/customers/index
+HTTP_REFERER=http://localhost:8888/gotrack/site/page?view=about
+---
