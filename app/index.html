@@ -4,27 +4,18 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html ng-app="gemStore">
+<html ng-app="GoTrack">
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
-    <script type ="text/javascript" src="/libs/angular-resource.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
+    <script type="text/javascript" src="./libs/angular.js"></script>
+    <script type ="text/javascript" src="./libs/angular-resource.js"></script>
     <script type="text/javascript" src="app.js"></script>
     </head>
-    <body ng-controller="StoreController">
-        
-        <p>{{text}}</p>
-       
-        <div>
-            <ul>
-                <li ng-repeat="prod in products">
-                    <p>{{prod.name}} {{prod.price}}</p>
-                </li>
-            </ul> 
-            
-        </div>
+    <body ng-controller="CustomerListCTRL">
+        <div ng-view></div>
+        {{text}}
     </body>
 </html>

@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'GoTrack - Track and Manage Client Activities',
+	'name'=>'GoTrack',
             
             //creating hoome url
         'homeurl'=>'index.php?r=customers',
@@ -45,7 +45,7 @@ return array(
 			'urlFormat'=>'path',
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+                                '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
                             //RESTful pattern
                             array('api/list', 'pattern'=>'api/<model:\w+>', 'verb'=>'GET'),

@@ -5,14 +5,24 @@
  */
 
 
-  var app = angular.module('gemStore', []);
+  var trackingApp = angular.module('GoTrack', [
+      ngRoute,
+      CustomerControllers,
+      UserControllers
+  ]);
 
-  app.controller('StoreController', function($scope){
-   $scope.products = [
-    { name: 'Azurite', price: 2.95 },
-    { name: 'Bloodstone', price: 5.95 },
-    { name: 'Zircon', price: 3.95 },
-  ];
-    $scope.text="lets do it";
-  });
+  goTrackApp.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when('/customers', {
+        templateUrl: 'partials/customers-list.html',
+        controller: 'CustomerListCtrl'
+      }).when('/phones/:phoneId', {
+        templateUrl: 'partials/phone-detail.html',
+        controller: 'CustomerDetailCtrl'
+      }).
+      otherwise({
+        redirectTo: '/customers'
+      });
 
+  }]);

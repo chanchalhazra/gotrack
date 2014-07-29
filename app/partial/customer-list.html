@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div>TODO write content</div>
+          <div class="container-fluid">
+            <div class = "row">
+                <div class="col-lg-2">
+                Search for:<input ng-model = "query" >
+                Sort result by:<select ng-model ="sortby">
+                                <option value="name">Alphabetically</option>
+                                <option value="-price">By Price</option>
+                                <option value="age">By Age</option>
+                               </select>
+                </div>
+                
+                <div class="col-lg-10">
+                    <ul>
+                        <li ng-repeat="prod in products|filter:query|orderBy:sortby">
+                        <p>{{prod.name}} {{prod.price}}</p>
+                        </li>
+                    </ul> 
+            
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
