@@ -131,6 +131,39 @@ class CustomersController extends Controller
 		));
 	}
 
+        // Customer REST API
+        
+        public function actionList()
+        {
+        console.log(" Hello Api");
+        switch ($_GET['model']) 
+         {
+            case 'customers':
+            $models = Customers::model()->findAll();
+
+            break;
+
+            default:
+            $this->sendResponse('501', spintf('Error: Mode <b>list</b> is not implemented for model <b>%s</b>',
+                $_GET['model']) );
+            yii::app()->end();
+            
+         }
+    
+            if(empty($models))
+             {
+        $this->sendRensponse('200', sprintf('no items were found for model <b>%s</b>', $_GET['model']));
+             }
+         else
+         {
+        $rows = array();
+        foreach($models as $model)
+            $rows[]=$model->attributes;
+        $this->sendResponse('200', CJSON::encode(array("status" => "OK", "riskdata" => $r, "msg" => "success")));
+       
+         }
+    }
+        
 	/**
 	 * Manages all models.
 	 */

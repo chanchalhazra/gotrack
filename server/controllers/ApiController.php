@@ -7,7 +7,7 @@
  */
 
 
-class RestApiController extends Controller
+class ApiController extends Controller
 {
     
 
