@@ -147,7 +147,7 @@ class CustomersController extends Controller
         foreach($models as $model)
             $rows[]=$model->attributes;
        // $this->sendResponse('200', CJSON::encode(array("status" => "OK", "riskdata" => $rows, "msg" => "success")));
-       $this->sendResponse('200', CJSON::encode(array( "riskdata" => $rows)));
+       $this->sendResponse('200', CJSON::encode(array( "customer" => $rows)));
        
          }
     }

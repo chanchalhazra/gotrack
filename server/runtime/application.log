@@ -5246,3 +5246,22 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/gotrack/customer
 ---
+2014/07/31 01:23:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index.php".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index.php')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/admin/index.php
+---
+2014/07/31 01:52:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "customers".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(270): CController->missingAction('customers')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('customers')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/customers/...')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gotrack/site/customers/index
+HTTP_REFERER=http://localhost:8888/gotrack/contact
+---

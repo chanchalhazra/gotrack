@@ -5,16 +5,18 @@
  */
 
 
-var customerControllers = angular.module('customerControllers', [
-    'ng-'
-]);
+var customerControllers = angular.module('customerControllers', []);
 
 customerControllers.controller('CustomerListCTRL', function($scope, $http){
-   $http.get('http://localhost:8383/gotrack/customers/list').
-           success(function(data){
-               $scope.customers = data;
+   $http.get('http://localhost:8888/gotrack/customers/list').
+            success(function(data, status, headers, config){
+               $scope.customers = data.customer;
+               $scope.text ='I am successfull';
+           }).
+           error(function(data, status, headers, config){
+               
            });
-});
+           });
 
 customerControllers.controller('CustomerDetailCTRL', function($scope){
     

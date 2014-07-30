@@ -5,14 +5,11 @@
  */
 
 
-  var trackingApp = angular.module('GoTrack', []);
+  var trackingApp = angular.module('GoTrack', [
+      'customerControllers',
+  ]);
   
-  trackingApp.controller('CustomerList', function($scope, $http){
-   $http.get('http://localhost:8383/gotrack/customers/list').success(function(data){
-               $scope.customers = data;
-               $scope.text = "I am successful";
-           });
-           });
+  
 /*
   goTrackApp.config(['$routeProvider',
   function($routeProvider) {
