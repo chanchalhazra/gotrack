@@ -4734,3 +4734,515 @@ Stack trace:
 REQUEST_URI=/gotrack/site/customers/index
 HTTP_REFERER=http://localhost:8888/gotrack/site/page?view=about
 ---
+2014/07/30 03:05:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CController->run('list')
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customers/list')
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/gotrack/customers/list
+---
+2014/07/30 03:11:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---
+2014/07/30 03:12:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CController->run('list')
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customers/list')
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/gotrack/customers/list
+---
+2014/07/30 03:12:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CController->run('list')
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customers/list')
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/gotrack/customers/list
+---
+2014/07/30 03:12:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CController->run('list')
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customers/list')
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/gotrack/customers/list
+---
+2014/07/30 03:12:54 [error] [php] Use of undefined constant console - assumed 'console' (/Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php:138)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(133): CustomersController->runAction()
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CustomersController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CustomersController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CustomersController->run()
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CWebApplication->run()
+REQUEST_URI=/gotrack/customers/list
+in /Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php (138)
+in /Applications/MAMP/htdocs/gotrack/index.php (13)
+2014/07/30 03:13:17 [error] [php] Use of undefined constant console - assumed 'console' (/Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php:138)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(133): CustomersController->runAction()
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CustomersController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CustomersController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CustomersController->run()
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CWebApplication->run()
+REQUEST_URI=/gotrack/customers/list
+in /Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php (138)
+in /Applications/MAMP/htdocs/gotrack/index.php (13)
+2014/07/30 03:13:18 [error] [php] Use of undefined constant console - assumed 'console' (/Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php:138)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(133): CustomersController->runAction()
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CustomersController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CustomersController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CustomersController->run()
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CWebApplication->run()
+REQUEST_URI=/gotrack/customers/list
+in /Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php (138)
+in /Applications/MAMP/htdocs/gotrack/index.php (13)
+2014/07/30 03:13:22 [error] [php] Use of undefined constant console - assumed 'console' (/Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php:138)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(133): CustomersController->runAction()
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CustomersController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CustomersController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CustomersController->run()
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CWebApplication->run()
+REQUEST_URI=/gotrack/customers/list
+in /Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php (138)
+in /Applications/MAMP/htdocs/gotrack/index.php (13)
+2014/07/30 03:13:33 [error] [php] Use of undefined constant console - assumed 'console' (/Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php:138)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(133): CustomersController->runAction()
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CustomersController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CustomersController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CustomersController->run()
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CWebApplication->run()
+REQUEST_URI=/gotrack/customers/list
+in /Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php (138)
+in /Applications/MAMP/htdocs/gotrack/index.php (13)
+2014/07/30 03:13:55 [error] [php] Undefined index: model (/Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php:139)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(133): CustomersController->runAction()
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CustomersController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CustomersController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CustomersController->run()
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CWebApplication->run()
+REQUEST_URI=/gotrack/customers/list
+in /Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php (139)
+in /Applications/MAMP/htdocs/gotrack/index.php (13)
+2014/07/30 03:13:56 [error] [php] Undefined index: model (/Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php:139)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(133): CustomersController->runAction()
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CustomersController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CustomersController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CustomersController->run()
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CWebApplication->run()
+REQUEST_URI=/gotrack/customers/list
+in /Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php (139)
+in /Applications/MAMP/htdocs/gotrack/index.php (13)
+2014/07/30 03:13:58 [error] [php] Undefined index: model (/Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php:139)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(133): CustomersController->runAction()
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CustomersController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CustomersController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CustomersController->run()
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CWebApplication->run()
+REQUEST_URI=/gotrack/customers/list
+in /Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php (139)
+in /Applications/MAMP/htdocs/gotrack/index.php (13)
+2014/07/30 03:15:18 [error] [php] Undefined variable: r (/Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php:151)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(133): CustomersController->runAction()
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CustomersController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CustomersController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CustomersController->run()
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CWebApplication->run()
+REQUEST_URI=/gotrack/customers/list
+in /Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php (151)
+in /Applications/MAMP/htdocs/gotrack/index.php (13)
+2014/07/30 03:15:19 [error] [php] Undefined variable: r (/Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php:151)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(133): CustomersController->runAction()
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CustomersController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CustomersController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CustomersController->run()
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CWebApplication->run()
+REQUEST_URI=/gotrack/customers/list
+in /Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php (151)
+in /Applications/MAMP/htdocs/gotrack/index.php (13)
+2014/07/30 03:16:14 [error] [php] Undefined variable: r (/Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php:151)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(133): CustomersController->runAction()
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CustomersController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CustomersController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CustomersController->run()
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CWebApplication->run()
+REQUEST_URI=/gotrack/customers/list
+in /Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php (151)
+in /Applications/MAMP/htdocs/gotrack/index.php (13)
+2014/07/30 03:16:15 [error] [php] Undefined variable: r (/Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php:151)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(133): CustomersController->runAction()
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CustomersController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CustomersController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CustomersController->run()
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CWebApplication->run()
+REQUEST_URI=/gotrack/customers/list
+in /Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php (151)
+in /Applications/MAMP/htdocs/gotrack/index.php (13)
+2014/07/30 03:16:16 [error] [php] Undefined variable: r (/Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php:151)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(133): CustomersController->runAction()
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CustomersController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CustomersController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CustomersController->run()
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CWebApplication->run()
+REQUEST_URI=/gotrack/customers/list
+in /Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php (151)
+in /Applications/MAMP/htdocs/gotrack/index.php (13)
+2014/07/30 03:16:18 [error] [php] Undefined variable: r (/Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php:151)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(133): CustomersController->runAction()
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CustomersController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CustomersController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CustomersController->run()
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CWebApplication->run()
+REQUEST_URI=/gotrack/customers/list
+in /Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php (151)
+in /Applications/MAMP/htdocs/gotrack/index.php (13)
+2014/07/30 03:16:18 [error] [php] Undefined variable: r (/Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php:151)
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(133): CustomersController->runAction()
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CInlineFilter.php(58): CustomersController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/gotrack/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CController.php(265): CustomersController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(282): CustomersController->run()
+#8 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/gotrack/index.php(13): CWebApplication->run()
+REQUEST_URI=/gotrack/customers/list
+in /Applications/MAMP/htdocs/gotrack/server/controllers/CustomersController.php (151)
+in /Applications/MAMP/htdocs/gotrack/index.php (13)
+2014/07/30 03:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customers.json".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customers.json')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customers.json
+---
+2014/07/30 03:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customers.json".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customers.json')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customers.json
+---
+2014/07/30 03:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customers.json".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customers.json')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customers.json
+---
+2014/07/30 03:32:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---
+2014/07/30 03:32:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---
+2014/07/30 03:33:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---
+2014/07/30 03:33:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---
+2014/07/30 03:33:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---
+2014/07/30 03:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---
+2014/07/30 03:33:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---
+2014/07/30 03:33:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---
+2014/07/30 05:19:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---
+2014/07/30 05:22:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer/list".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/list')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer/list
+---
+2014/07/30 05:29:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer/index".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/index')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer/index
+---
+2014/07/30 05:29:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---
+2014/07/30 05:29:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---
+2014/07/30 05:29:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer/list".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/list')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer/list
+---
+2014/07/30 05:30:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---
+2014/07/30 05:30:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---
+2014/07/30 05:30:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---
+2014/07/30 05:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---
+2014/07/30 05:30:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer/list".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/list')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer/list
+---
+2014/07/30 05:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer/list".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/list')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer/list
+---
+2014/07/30 05:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer/list".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer/list')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer/list
+---
+2014/07/30 05:30:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/customer
+---

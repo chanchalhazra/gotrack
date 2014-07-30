@@ -52,12 +52,11 @@ return array(
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
                             //RESTful pattern
-                          array('customers', 'pattern' => 'customers/index', 'verb' => 'GET'),
-                           // array('api/list', 'pattern'=>'api/<model:\w+>', 'verb'=>'GET'),
-                           // array('api/view', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'GET'),
-                           // array('api/create', 'pattern'=>'api/<model:\w+>', 'verb'=>'POST'),
-                           // array('api/update', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'PUT'),
-                            //array('api/delete', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'DELETE'),
+                          array('customers/list', 'pattern' => 'api/customers', 'verb' => 'GET'),
+                          array('customers/view', 'pattern'=>'api/customer/id', 'verb'=>'GET'),
+                          array('customers/create', 'pattern'=>'api/customer', 'verb'=>'POST'),
+                          array('customer/update', 'pattern'=>'api/customer/id', 'verb'=>'PUT'),
+                          array('customer/delete', 'pattern'=>'api/customer/id', 'verb'=>'DELETE'),
 			),
                     
 		),

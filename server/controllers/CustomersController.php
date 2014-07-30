@@ -28,7 +28,7 @@ class CustomersController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view', 'list',),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -131,24 +131,11 @@ class CustomersController extends Controller
 		));
 	}
 
-        // Customer REST API
+        // Customer RESTfull API
         
         public function actionList()
         {
-        console.log(" Hello Api");
-        switch ($_GET['model']) 
-         {
-            case 'customers':
-            $models = Customers::model()->findAll();
-
-            break;
-
-            default:
-            $this->sendResponse('501', spintf('Error: Mode <b>list</b> is not implemented for model <b>%s</b>',
-                $_GET['model']) );
-            yii::app()->end();
-            
-         }
+         $models = Customers::model()->findAll();
     
             if(empty($models))
              {
@@ -159,7 +146,8 @@ class CustomersController extends Controller
         $rows = array();
         foreach($models as $model)
             $rows[]=$model->attributes;
-        $this->sendResponse('200', CJSON::encode(array("status" => "OK", "riskdata" => $r, "msg" => "success")));
+       // $this->sendResponse('200', CJSON::encode(array("status" => "OK", "riskdata" => $rows, "msg" => "success")));
+       $this->sendResponse('200', CJSON::encode(array( "riskdata" => $rows)));
        
          }
     }

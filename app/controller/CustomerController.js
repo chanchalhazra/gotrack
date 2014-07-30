@@ -5,17 +5,15 @@
  */
 
 
-var customerControllers = angular.module('customerControllers', []);
+var customerControllers = angular.module('customerControllers', [
+    'ng-'
+]);
 
-customerControllers.controller('CustomerListCTRL', function($scope){
-     $scope.products = [
-    { name: 'Azurite', price: 2.95 },
-    { name: 'Bloodstone', price: 5.95 },
-    { name: 'Zircon', price: 3.95 },
-  ];
-    $scope.text="lets do it";
-    $scope.sortby = "-price";
-  
+customerControllers.controller('CustomerListCTRL', function($scope, $http){
+   $http.get('http://localhost:8383/gotrack/customers/list').
+           success(function(data){
+               $scope.customers = data;
+           });
 });
 
 customerControllers.controller('CustomerDetailCTRL', function($scope){
