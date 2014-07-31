@@ -6,24 +6,25 @@
 
 
   var trackingApp = angular.module('GoTrack', [
+      'ngRoute',
       'customerControllers',
   ]);
   
   
-/*
+
   goTrackApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/customers', {
         templateUrl: 'partials/customers-list.html',
-        controller: 'CustomerListCtrl'
-      }).when('/phones/:phoneId', {
-        templateUrl: 'partials/phone-detail.html',
-        controller: 'CustomerDetailCtrl'
+        controller: 'CustomerListCTRL'
+      }).when('/customers/:customerId', {
+        templateUrl: 'partials/customer-detail.html',
+        controller: 'CustomerDetailCTRL'
       }).
       otherwise({
         redirectTo: '/customers'
       });
 
   }]);
-  */
+  
