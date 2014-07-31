@@ -5265,3 +5265,19 @@ Stack trace:
 REQUEST_URI=/gotrack/site/customers/index
 HTTP_REFERER=http://localhost:8888/gotrack/contact
 ---
+2014/07/31 03:02:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/customer".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/customer')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/customer
+---
+2014/07/31 03:02:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/customers".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/customers')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/customers
+---

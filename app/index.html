@@ -12,20 +12,14 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
     <script type="text/javascript" src="./libs/angular.js"></script>
     <script type ="text/javascript" src="./libs/angular-resource.js"></script>
+    <script type ="text/javascript" src="./libs/angular-route.js"></script>
     <script type="text/javascript" src="./app.js"></script>
     <script type="text/javascript" src="./controller/CustomerController.js"></script>
      
     </head>
     <body >
-        <div >
-            <ul ng-controller="CustomerListCTRL">
-                <li ng-repeat="cust in customers">
-                    <p>   Hello:{{cust.id}} name: {{cust.name}} </p>
-                    <p>{{text}}</p>
-                </li>
-            </ul>
-            
-        </div>
+       
+        <div ng-view=""></div>
         
     </body>
 </html>
