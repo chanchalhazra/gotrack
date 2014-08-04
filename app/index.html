@@ -32,21 +32,22 @@ and open the template in the editor.
       
   </head>
 
-  <body style = "width: 80%; margin-left: auto; margin-right: auto" >
+  <body style = "width: 90%; margin-left: auto; margin-right: auto" >
  	 <div id="header1" style=" height: 65px;width:auto;margin: 0" >
           <div style=" float:left ;height: 60px;width: auto;margin: 0;">
             <a id="SinnoflexLogo" href="./" >
            <!img src="assets/logo4.png" alt="SinnoFlex" style="float: left;width: 80px; height: 60px"/></a>
-              <a href="index.html">  <h1 style="color: #C09853; margin-left: 50px;">SinnoFlex</h1></a>
+              <a href="index.html">  <h1 style="color: #3e648d; margin-left: 50px;">Go Track</h1></a>
+              <i>by SinnoFlex</i>
              
           </div>
             
           <div style=" height: 50px;float: right;margin-top:10px;margin-right: 100px;width:auto ">
-              <a id="siteheader1" href="about/about.html" style="color: #C09853;">About</a>
+              <a id="siteheader1" href="about/about.html" style="color: #3e648d;">About</a>
             <span id="siteheader2">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-            <a id="siteheader3" href="about/career.html" style="color: #C09853;">Login</a>
+            <a id="siteheader3" href="about/career.html" style="color: #3e648d;">Login</a>
             <span id="siteheader4">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-            <a id="siteheader5" href="about/contact.php" style="color: #c09853;">Contact</a>
+            <a id="siteheader5" href="about/contact.php" style="color: #3e648d;">Contact</a>
             </div>
           </div>
               
@@ -57,18 +58,35 @@ and open the template in the editor.
           <ul class="nav navbar-nav navbar-left">
             <li><a href="services.html">Home</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Customer</a>
+              <a href=".#/customers" class="dropdown-toggle" data-toggle="dropdown">Customer</a>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Project</a>
+              <a href="/projects" class="dropdown-toggle" data-toggle="dropdown">Project</a>
             </li>
              <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Task</a>
+              <a href="/tasks" class="dropdown-toggle" data-toggle="dropdown">Task</a>
              </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reports</a>
              </li>
           </ul>
+            
+            <form class="navbar-form navbar-left">
+                    <input type="text" class="form-control col-lg-8" placeholder="Search">
+                  </form>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
         </div><!-- /.navbar-collapse -->
       
     </nav>
@@ -79,109 +97,14 @@ and open the template in the editor.
       <div class="container">
 
         <div class="row">
-          <div class="col-lg-3 col-md-3">
-              <div class="panel panel-default">
-            <div class="panel-heading">Customer Operation(panel)</div>
-             <div class="panel-body">
-              <ul style="list-style: none; ">
-                <li>Customer List</li>
-                <li>Create Customer</li>
-                <li>Manage Customer</li>
-            </ul>
-            </div>
-              </div>
-              <div class="list-group">
-             <a href="#" class="list-group-item active">
-                 Customer Operation(listgroup)
-             </a>
-             <a href="#" class="list-group-item">List of Customer</a>
-             <a href="#" class="list-group-item">Create Customer</a>
-             <a href="#" class="list-group-item">Manage customer </a>
-             <a href="#" class="list-group-item">Create Project</a>
-                </div>
-          </div>
-          <div class="col-lg-9 col-md-9">
-            <h3><i class="fa fa-mobile-phone"></i> List of Customers</h3>
-             <table class="table table-striped">
-                 <thead>
-                     <tr>
-                        <th>Id</th>
-                        <th>Customer Name</th>
-                        <th>Last Name</th>
-                        <th>Email</th>
-                    </tr>
-                </thead>
-                <tbody>
-                     <tr>
-                        <td>1</td>
-                        <td>John</td>
-                        <td>Carter</td>
-                        <td>johncarter@mail.com</td>
-                     </tr>
-                    <tr>
-                         <td>2</td>
-                         <td>Peter</td>
-                         <td>Parker</td>
-                         <td>peterparker@mail.com</td>
-                    </tr>
-                    <tr>
-                         <td>3</td>
-                         <td>John</td>
-                         <td>Rambo</td>
-                         <td>johnrambo@mail.com</td>
-                    </tr>
-                </tbody>
-            </table>
-          </div>
          
+            <div ng-view></div>
         </div><!-- /.row -->
 
       </div><!-- /.container -->
 
     </div><!-- /.section -->
 
-    <div class="section-devider text-center"  >
-
-
-       
-            <h4>The Nexus of Forces — social, mobile, cloud and information — is building on and transforming user behavior</h4>
-           
-       
-
-      </div><!-- /.container -->
-
-   <!-- /.section-colored -->
-
-    <div class="section-colored">
-
-      <div class="container">
-
-          <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6">
-            <h2>Cloud Application Implementation:</h2>
-            <ul>
-                 <li>Leading-edge IT organizations are well under way in adopting cloud based application platforms to cut overall application cost including implementation and administration.</li>
-                 <li>SaaS applications from salesforce.com, Google, Microsoft, NetSuite, Archer and many other application providers present compelling alternatives to on premise hosted applications.</li>
-                 <li>Build Business Case in terms of Total Cost of Ownership, elastic scalability and process performance metrics.</li>
-                 <li>Ensure proper treatment of intellectual property in the cloud and access security while using multi-tenant application services.</li>
-                 <li>Implement adequate integrations across multiple cloud based application services.</li>
-                 <li>Develop an adequate exit strategy and start using applications.</li>
-                 <li>SinnoFlex with a team of certified consultants and administrators can help with both the implementation and administration of the application.</li>
-                 <li>SinnoFlex deploys a very lean team and guides customers to up and running quickly on the Cloud application like Saleforce.com, Netsuite, Microsoft Dynamics etc.. We continue to fine tune initial base configuration through our administration services.</li> 
-                 <li>Our implementation approach is fully agile and our focus is to use resources effectively.</li>
-
-            </ul>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6">
-              <img class="img-responsive" style="height: 300px; width: 750px" src="assets/MoveToCloud.jpg">
-          </div>
-        </div><!-- /.row -->
-
-      </div><!-- /.container -->
-
-    </div><!-- /.section-colored -->
-
-   
 
     <div class="container" style="margin-top: 20px;">
 
