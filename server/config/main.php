@@ -52,6 +52,7 @@ return array(
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
                             //RESTful pattern
+                          array('/login', 'pattern' => 'api/login', 'verb' => 'GET'),
                           array('customers/list', 'pattern' => 'api/customers', 'verb' => 'GET'),
                           array('customers/view', 'pattern'=>'api/customer/id', 'verb'=>'GET'),
                           array('customers/create', 'pattern'=>'api/customer', 'verb'=>'POST'),

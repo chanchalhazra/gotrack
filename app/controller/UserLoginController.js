@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-var userControllers = angular.module('userControllers', []);
+var userLoginControllers = angular.module('userLoginControllers', []);
 
-customerControllers.controller('UserListCTRL', function($scope, $http){
+userLoginControllers.controller('UserLoginCTRL', function($scope, $http){
    $http.get('http://localhost:8383/gotrack/customers/list').
             success(function(data, status, headers, config){
                $scope.customers = data.customer;
@@ -17,19 +17,17 @@ customerControllers.controller('UserListCTRL', function($scope, $http){
            });
            });
 
-customerControllers.controller('UserDetailCTRL', function($scope, $routeParams){
+userLoginControllers.controller('UserLogoutCTRL', function($scope, $routeParams){
     $scope.customerID = $routeParams.id;
     
 });
 
-customerControllers.controller('UserCreateCTRL', function($scope){
+userLoginControllers.controller('UserResetPasswordCTRL', function($scope){
     
 });
 
-customerControllers.controller('UserUpdateCTRL', function($scope){
+userLoginControllers.controller('UserSignupCTRL', function($scope){
     
 });
 
-customerControllers.controller('UserDeleteCTRL', function($scope){
-    
-});
+

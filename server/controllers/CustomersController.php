@@ -51,9 +51,25 @@ class CustomersController extends Controller
 	 */
 	public function actionView($id)
 	{
+            /*
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
 		));
+            */ 
+            $model = Customers::model()->findByPk($id);
+    
+            if(empty($model))
+             {
+        $this->sendRensponse('200', sprintf('no items were found for model <b>%s</b>', $_GET['model']));
+             }
+         else
+         {
+      
+       $this->sendResponse('200', CJSON::encode(array( "customer" => $model)));
+       
+         }
+             
+             
 	}
 
 	/**

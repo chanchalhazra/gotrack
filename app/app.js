@@ -8,6 +8,8 @@
   var goTrackApp = angular.module('GoTrack', [
       'ngRoute',
       'customerControllers',
+      'projectControllers',
+      'userLoginControllers',
   ]);
   
   
@@ -15,7 +17,10 @@
   goTrackApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
-      when('/customers', {
+       when('/login', {
+        templateUrl: 'partial/site/login.html',
+        controller: 'UserLoginCTRL'
+    }).when('/customers', {
         templateUrl: 'partial/customer/customer-list.html',
         controller: 'CustomerListCTRL'
       }).when('/customers/:customerId', {

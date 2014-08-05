@@ -653,3 +653,579 @@ Stack trace:
 REQUEST_URI=/gotrack/app/css/font-awesome.min.css
 HTTP_REFERER=http://localhost:8383/gotrack/app/
 ---
+2014/08/05 02:57:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 02:57:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 03:06:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 03:07:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 03:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/about/career.html".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/about/caree...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/about/career.html
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 03:07:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/about/career.html".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/about/caree...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/about/career.html
+HTTP_REFERER=http://localhost:8383/gotrack/app/#/customers
+---
+2014/08/05 03:11:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 03:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/about/career.html".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/about/caree...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/about/career.html
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 03:12:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/about/career.html".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/about/caree...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/about/career.html
+HTTP_REFERER=http://localhost:8383/gotrack/app/#/customers
+---
+2014/08/05 03:12:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/about/about.html".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/about/about...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/about/about.html
+HTTP_REFERER=http://localhost:8383/gotrack/app/#/customers
+---
+2014/08/05 03:13:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 03:13:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 03:14:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 03:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 06:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 06:56:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 06:56:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:23:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:23:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:24:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:27:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:28:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:28:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:28:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:30:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:30:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:30:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:31:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:31:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:32:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:34:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:34:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/services.html".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/services.ht...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/services.html
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:34:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:34:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:36:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:37:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:37:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:37:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:39:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:39:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:39:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:39:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:39:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:39:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:39:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:40:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:42:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:42:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:43:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:49:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:49:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/index.html
+---
+2014/08/05 16:52:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:52:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 16:53:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 17:03:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 17:03:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 17:05:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 17:09:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 17:10:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 17:12:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
+2014/08/05 17:12:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/gotrack/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 /Applications/MAMP/htdocs/gotrack/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/gotrack/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8383/gotrack/app/
+---
