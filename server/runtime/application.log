@@ -1229,3 +1229,831 @@ Stack trace:
 REQUEST_URI=/gotrack/app/css/font-awesome.min.css
 HTTP_REFERER=http://localhost:8383/gotrack/app/
 ---
+2014/08/05 17:44:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 17:44:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 17:45:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 17:45:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 18:03:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:06:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 18:06:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 18:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:06:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:08:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 18:08:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:08:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:08:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:08:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:08:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 18:09:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:09:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:09:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:10:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 18:10:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:11:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 18:12:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:15:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 18:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:15:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:17:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 18:17:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:17:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:18:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:18:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:18:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:18:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 18:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:20:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:20:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('customers/undef...')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gotrack/customers/undefined
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:20:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('customers/undef...')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gotrack/customers/undefined
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:38:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 18:38:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:38:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('customers/undef...')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gotrack/customers/undefined
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:38:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('customers/undef...')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gotrack/customers/undefined
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:38:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 18:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:39:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 18:39:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:39:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 18:43:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "customers".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CController.php(270): CController->missingAction('customers')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(282): CController->run('customers')
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/customers/...')
+#3 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gotrack/site/customers/index
+HTTP_REFERER=http://localhost:8888/gotrack/customers/index
+---
+2014/08/05 18:43:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 19:17:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 19:33:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 19:33:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 19:33:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 19:39:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 19:39:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 19:40:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 19:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 19:40:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlogin".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('userlogin')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/userlogin
+---
+2014/08/05 19:40:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userLogin".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('userLogin')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/userLogin
+---
+2014/08/05 19:41:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/userLogin".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/userLogin')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/userLogin
+---
+2014/08/05 19:41:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/customers".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/customers')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/customers
+---
+2014/08/05 19:41:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 19:41:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 19:44:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 19:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 19:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 19:51:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlogin".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('userlogin')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/userlogin
+---
+2014/08/05 21:34:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlogin".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('userlogin')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/userlogin
+---
+2014/08/05 21:34:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 21:36:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 21:43:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/05 21:43:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/index.html
+---
+2014/08/05 21:43:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/06 00:52:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/06 00:53:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/06 00:53:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/06 00:53:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlogin".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('userlogin')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/userlogin
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/06 00:54:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlogin".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('userlogin')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/userlogin
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/06 00:54:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlogin".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('userlogin')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/userlogin
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/06 00:54:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/06 00:54:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlogin".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('userlogin')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/userlogin
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/06 01:02:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/06 01:02:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/06 01:02:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlogin".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('userlogin')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/userlogin
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/06 01:05:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/06 01:05:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlogin".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('userlogin')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/userlogin
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/06 01:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlogin".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('userlogin')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/userlogin
+---
+2014/08/06 01:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlogin".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('userlogin')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/userlogin
+---
+2014/08/06 01:07:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlogin".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('userlogin')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/userlogin
+---
+2014/08/06 01:07:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlogin".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('userlogin')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/userlogin
+---
+2014/08/06 01:07:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/css/font-awesome.min.css".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/css/font-aw...')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/app/css/font-awesome.min.css
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---
+2014/08/06 01:08:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlogin".' in C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('userlogin')
+#1 C:\LearnToDevelop\xampp\htdocs\gotrack\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\LearnToDevelop\xampp\htdocs\gotrack\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gotrack/userlogin
+HTTP_REFERER=http://localhost:8888/gotrack/app/
+---

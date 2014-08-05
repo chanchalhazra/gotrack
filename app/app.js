@@ -22,8 +22,8 @@
         controller: 'UserLoginCTRL'
     }).when('/customers', {
         templateUrl: 'partial/customer/customer-list.html',
-        controller: 'CustomerListCTRL'
-      }).when('/customers/:customerId', {
+        controller: 'CustomerListCTRL',
+    }).when('/customers/:customerId', {
         templateUrl: 'partial/customer/customer-detail.html',
         controller: 'CustomerDetailCTRL'
       }).when('/projects', {

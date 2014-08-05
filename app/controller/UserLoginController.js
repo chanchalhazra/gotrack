@@ -7,15 +7,27 @@
 var userLoginControllers = angular.module('userLoginControllers', []);
 
 userLoginControllers.controller('UserLoginCTRL', function($scope, $http){
-   $http.get('http://localhost:8383/gotrack/customers/list').
-            success(function(data, status, headers, config){
-               $scope.customers = data.customer;
-               $scope.text ='I am successfull';
-           }).
-           error(function(data, status, headers, config){
-               
-           });
-           });
+   
+   $scope.credential = {
+       username:'',
+       password:'',
+       rememberMe:'',
+   };
+      
+     $scope.userlogin = function(logindata) {
+         $scope.logintext = "login function is invoked";
+         $scope.logdata = logindata;
+      $http.post('http://localhost:8888/gotrack/userlogin', logindata)
+              .success(function(data, status, headers, config) {
+                $scope.text = "login successfull";
+                $scope.status = data;
+                 })
+              .error(function(data, status, headers, config) {
+                $scope.text = "login was not successfull";
+                 });
+     };
+
+    });
 
 userLoginControllers.controller('UserLogoutCTRL', function($scope, $routeParams){
     $scope.customerID = $routeParams.id;

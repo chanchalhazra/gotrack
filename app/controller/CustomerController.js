@@ -9,7 +9,7 @@ var customerControllers = angular.module('customerControllers', []);
 var customerlist ={};
 
 customerControllers.controller('CustomerListCTRL', function($scope, $http){
-   $http.get('http://localhost:8383/gotrack/customers/list').
+   $http.get('http://localhost:8888/gotrack/customers/list').
             success(function(data, status, headers, config){
                $scope.customers = data.customer;
                $scope.text ='I am successfull';
@@ -21,10 +21,13 @@ customerControllers.controller('CustomerListCTRL', function($scope, $http){
            });
 
 customerControllers.controller('CustomerDetailCTRL', function($scope,$http, $routeParams){
-    $http.get('http://localhost:8383/gotrack/customers/2').
+    var url = 'http://localhost:8888/gotrack/customers/'+$routeParams.customerId;
+    $scope.url =url;
+   
+    $http.get(url).
             success(function(data, status, headers, config){
                $scope.customer = data.customer;
-               $scope.text ='I am successfull';
+                $scope.text ='I am successfull';
                //customerlist = data.customer;
            }).
            error(function(data, status, headers, config){

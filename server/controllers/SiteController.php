@@ -108,6 +108,32 @@ class SiteController extends Controller
              
              
 	}
+        
+        ///API for Angular js
+        public function actionUserLogin()
+	{
+           // echo (Yii::app()->homeUrl);
+               
+		$model=new LoginForm;
+
+		// collect user input data
+		if(isset($_POST['logindata']))
+		{
+			$model->attributes=$_POST['logindata'];
+			// validate user input and redirect to the previous page if valid
+			if($model->validate() && $model->login())
+                        {
+                         $this->sendResponse('200', CJSON::encode(array( "loginStatus" => 'Successfull')));
+                        }
+                     else {
+                         $this->sendRensponse('200', CJSON::encode(array( "loginStatus" => 'Un Successfull')));
+                           }
+		}
+		// display the login form
+		$this->render('login',array('model'=>$model));
+             
+             
+	}
 
 	/**
 	 * Logs out the current user and redirect to homepage.

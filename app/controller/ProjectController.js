@@ -17,19 +17,19 @@ projectControllers.controller('ProjectListCTRL', function($scope, $http){
            });
            });
 
-projectControllers.controller('CustomerDetailCTRL', function($scope, $routeParams){
+projectControllers.controller('ProjectDetailCTRL', function($scope, $routeParams){
     $scope.customerID = $routeParams.id;
     
 });
 
-projectControllers.controller('CustomerCreateCTRL', function($scope){
+projectControllers.controller('ProjectCreateCTRL', function($scope){
     
 });
 
-projectControllers.controller('CustomerUpdateCTRL', function($scope){
+projectControllers.controller('ProjectUpdateCTRL', function($scope){
     
 });
 
-projectControllers.controller('CustomerDeleteCTRL', function($scope){
+projectControllers.controller('ProjectDeleteCTRL', function($scope){
     
 });

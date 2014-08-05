@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<div ng-show="!error">
+	<div ng-show="loading">
+		Verifying your email address, please wait...
+	</div>
+	<div ng-show="!loading">
+		Your email address has been verified, <a href="#/login">click here</a> to log in.
+	</div>
+</div>
+<p ng-show="error">{{ error.message }}</p>
