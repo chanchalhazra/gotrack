@@ -110,12 +110,13 @@ class SiteController extends Controller
 	}
         
         ///API for Angular js
-        public function actionUserLogin()
+        public function actionUserlogin()
 	{
            // echo (Yii::app()->homeUrl);
                
 		$model=new LoginForm;
-
+                $ck = $_POST['logindata'];
+                $this->sendResponse('300', CJSON::encode(array('userlogindata'=>$ck)));
 		// collect user input data
 		if(isset($_POST['logindata']))
 		{
@@ -126,12 +127,16 @@ class SiteController extends Controller
                          $this->sendResponse('200', CJSON::encode(array( "loginStatus" => 'Successfull')));
                         }
                      else {
-                         $this->sendRensponse('200', CJSON::encode(array( "loginStatus" => 'Un Successfull')));
+                         $this->sendRensponse('201', CJSON::encode(array( "loginStatus" => 'Un Successfull')));
                            }
 		}
+                else
+                {
 		// display the login form
-		$this->render('login',array('model'=>$model));
-             
+		//$this->render('login',array('model'=>$model));
+                $this->sendRensponse('300', CJSON::encode(array( "loginStatus" => 'POST does not have any data')));
+              //  $this->sen
+                }
              
 	}
 

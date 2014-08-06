@@ -17,13 +17,17 @@ userLoginControllers.controller('UserLoginCTRL', function($scope, $http){
      $scope.userlogin = function(logindata) {
          $scope.logintext = "login function is invoked";
          $scope.logdata = logindata;
-      $http.post('http://localhost:8888/gotrack/userlogin', logindata)
+      $http.post('http://localhost:8383/gotrack/site/userlogin', logindata)
               .success(function(data, status, headers, config) {
-                $scope.text = "login successfull";
-                $scope.status = data;
+                $scope.text = "API call is successfull";
+                $scope.status = status;
+                $scope.logstatus = data.loginStatus;
+                $scope.logdatasent = data.userlogindata;
+                
                  })
               .error(function(data, status, headers, config) {
-                $scope.text = "login was not successfull";
+                $scope.text = "API call was not successfull";
+                $scope.status = status;
                  });
      };
 

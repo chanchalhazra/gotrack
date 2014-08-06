@@ -46,7 +46,7 @@ return array(
                         'showScriptName'=>false,
                         'caseSensitive'=>false,
 			'rules'=>array(
-                            'login'=>'site/login',
+                            //'login'=>'site/login',
                             'contact'=>'site/contact',
                                 '<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
