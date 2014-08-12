@@ -115,28 +115,36 @@ class SiteController extends Controller
            // echo (Yii::app()->homeUrl);
                
 		$model=new LoginForm;
-                $ck = $_POST['logindata'];
-                $this->sendResponse('300', CJSON::encode(array('userlogindata'=>$ck)));
+                $logStatus ='';
+           
+                
 		// collect user input data
-		if(isset($_POST['logindata']))
+		if(isset($_POST['credential']))
 		{
-			$model->attributes=$_POST['logindata'];
+			$model->attributes=$_POST['credential'];
 			// validate user input and redirect to the previous page if valid
 			if($model->validate() && $model->login())
-                        {
-                         $this->sendResponse('200', CJSON::encode(array( "loginStatus" => 'Successfull')));
-                        }
-                     else {
-                         $this->sendRensponse('201', CJSON::encode(array( "loginStatus" => 'Un Successfull')));
+                           {
+                        
+                            $logStatus ='Login Successfull';
+                           // $this->sendResponse('200', CJSON::encode(array("userlogindata"=>$model,"loginStatus"=>$logStatus )));
+                            }
+                        else
+                            {
+                            $logStatus ='Login is un-Successfull';
+                           // $this->sendResponse('201', CJSON::encode(array("userlogindata"=>$model,"loginStatus"=>$logStatus )));
                            }
+                           $this->sendResponse('200', CJSON::encode(array("userlogindata"=>$model,"loginStatus"=>$logStatus )));
 		}
                 else
                 {
 		// display the login form
 		//$this->render('login',array('model'=>$model));
-                $this->sendRensponse('300', CJSON::encode(array( "loginStatus" => 'POST does not have any data')));
+                $this->sendResponse('300', CJSON::encode(array( "loginStatus" => 'POST does not have any data')));
               //  $this->sen
                 }
+                 
+                 
              
 	}
 

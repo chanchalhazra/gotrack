@@ -5,13 +5,14 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <div class="col-lg-5 col-md-5" ng-controller ='UserLoginCTRL'>             
-    <form class="form-horizontal" ng-submit="userlogin(credential)">
+    <form name = "login_form" class="form-horizontal" ng-submit="userlogin()" novalidate>
                 <fieldset>
                   <legend>Login</legend>
                   <div class="form-group">
-                    <label for="username" class="col-lg-2 control-label">Email</label>
+                    <label for="username" class="col-lg-2 control-label">Username</label>
                     <div class="col-lg-10">
-                      <input ng-model="credential.username" type="text" class="form-control" id="inputEmail" placeholder="Email">
+                        <input ng-model="credential.username" type="text" class="form-control" id="inputEmail" placeholder="Username" ng-required>
+                       
                     </div>
                   </div>
                   <div class="form-group">
@@ -28,7 +29,7 @@ and open the template in the editor.
                   <div class="form-group">
                     <div class="col-lg-10 col-lg-offset-2">
                       <button class="btn btn-default">Cancel</button>
-                      <button type="submit" class="btn btn-primary">Login</button>
+                      <button type="submit" ng-disabled="!login_form.$valid" class="btn btn-primary">Login</button>
                     </div>
                   </div>
                 </fieldset>

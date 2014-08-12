@@ -7,21 +7,24 @@
 var userLoginControllers = angular.module('userLoginControllers', []);
 
 userLoginControllers.controller('UserLoginCTRL', function($scope, $http){
-   
+  /* 
    $scope.credential = {
        username:'',
        password:'',
        rememberMe:'',
    };
-      
-     $scope.userlogin = function(logindata) {
+      */
+     $scope.userlogin = function() {
          $scope.logintext = "login function is invoked";
-         $scope.logdata = logindata;
-      $http.post('http://localhost:8383/gotrack/site/userlogin', logindata)
-              .success(function(data, status, headers, config) {
+        // $scope.logdata = credential;
+      $http({url:'http://localhost:8383/gotrack/site/userlogin',
+             method: 'POST',
+             data:$.param({'credential': $scope.credential}),
+             headers : {'Content-Type':'application/x-www-form-urlencoded'
+             }}).success(function(data, status, headers, config) {
                 $scope.text = "API call is successfull";
                 $scope.status = status;
-                $scope.logstatus = data.loginStatus;
+              $scope.logstatus = data.loginStatus;
                 $scope.logdatasent = data.userlogindata;
                 
                  })
